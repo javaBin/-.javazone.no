@@ -1,0 +1,102 @@
+.navbar {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 3.25rem;
+  position: relative;
+  z-index: 30;
+}
+
+.isDark {
+  background-color: #363636 !important;
+  color: #fff !important;
+}
+
+.isFixedTop {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+}
+
+.navbarBrand {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbarItem {
+  color: #bfc2c6;
+  align-items: center;
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+}
+
+.navbarBurger {
+  cursor: pointer;
+  display: block;
+  align-content: center;
+  height: 4rem;
+  position: relative;
+  width: 3.25rem;
+}
+.navbarBurger span {
+  background-color: #ffffff;
+  display: block;
+  height: 2px;
+  margin: 4px 0;
+  width: 1.5rem;
+}
+
+.isActive {
+  display: block !important;
+}
+
+.navbarMenu {
+  display: none;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.isActive {
+  display: block !important;
+}
+
+.isActiveNavBarMenu {
+  display: flex !important;
+}
+
+.navbarStart {
+  align-items: center;
+  display: flex;
+}
+
+.navbarEnd {
+  align-items: center;
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.isPrimary {
+  background-color: #00d1b2 !important;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}

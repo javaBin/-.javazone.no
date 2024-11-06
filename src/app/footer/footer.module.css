@@ -1,0 +1,27 @@
+.footer {
+  background-color: #363636; /* Customize as needed */
+  padding: 1rem 0;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.levelItem {
+  margin: 0 1rem;
+}
+
+.hasTextCentered {
+  text-align: center;
+}
+
+.link {
+  color: #bfc2c6; /* Customize link color */
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline; /* Add hover effect */
+}

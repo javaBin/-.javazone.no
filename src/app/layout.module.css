@@ -1,0 +1,67 @@
+.hasNavbarFixedTop {
+  padding-top: 3.25rem !important;
+}
+
+.navbar.isFixedTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+}
+
+.hero {
+  background-color: #f5f5f5;
+  color: #4a4a4a;
+  padding: 3rem 1.5rem;
+}
+
+.hero.isFullHeight {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heroBody {
+  flex-grow: 1;
+  padding: 3rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .container {
+    max-width: 1344px;
+  }
+}
+
+.isMaxDesktop {
+  max-width: 960px !important;
+}
+
+.heroFoot {
+  flex-shrink: 0;
+}
+
+
+
